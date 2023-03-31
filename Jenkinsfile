@@ -7,6 +7,12 @@ pipeline {
       }
     }
 
+    stage('') {
+      steps {
+        sh 'echo \'${env}\''
+      }
+    }
+
   }
   environment {
     env = 'uat'
