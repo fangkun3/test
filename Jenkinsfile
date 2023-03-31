@@ -7,7 +7,7 @@ pipeline {
       }
     }
 
-    stage('') {
+    stage('echo') {
       steps {
         sh 'echo \'${env}\''
       }
